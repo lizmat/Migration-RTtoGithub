@@ -16,5 +16,5 @@
   "source-url" : "ssh://github.com/lizmat/Migration-RTtoGithub.git",
   "tags" : [ ],
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }

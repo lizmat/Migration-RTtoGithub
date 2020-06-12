@@ -11,7 +11,7 @@ is URL(127016),
   "https://github.com/Raku/old-issue-tracker/issues/4921",
   "URL for RT in GH";
 is URL(127016, :old),
-  "http://rt.perl.org/Ticket/Display.html?id=127016",
+  "https://rt.perl.org/Ticket/Display.html?id=127016",
   "URL for RT in RT";
 
 # vim: ft=perl6 expandtab sw=4
