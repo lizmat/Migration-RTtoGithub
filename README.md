@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Migration-RTtoGithub/workflows/test/badge.svg)](https://github.com/lizmat/Migration-RTtoGithub/actions)
+
 NAME
 ====
 
@@ -49,14 +51,14 @@ Return the URL of the Github issue for the given RT ticket if possible. If there
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Migration-RTtoGithub . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2020 Elizabeth Mattijsen
+Copyright 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 

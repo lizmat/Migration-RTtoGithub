@@ -1,20 +1,25 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "zef:lizmat",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "mapping of old RT tickets to GitHub issues",
-  "license" : "Artistic-2.0",
-  "name" : "Migration::RTtoGithub",
-  "perl" : "6.c",
-  "provides" : {
-    "Migration::RTtoGithub" : "lib/Migration/RTtoGithub.pm6"
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "mapping of old RT tickets to GitHub issues",
+  "license": "Artistic-2.0",
+  "name": "Migration::RTtoGithub",
+  "perl": "6.c",
+  "provides": {
+    "Migration::RTtoGithub": "lib/Migration/RTtoGithub.rakumod"
   },
-  "resources" : [ ],
-  "source-url" : "ssh://github.com/lizmat/Migration-RTtoGithub.git",
-  "tags" : [ ],
-  "test-depends" : [ ],
-  "version" : "0.0.2"
+  "resources": [
+  ],
+  "source-url": "ssh://github.com/lizmat/Migration-RTtoGithub.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.3"
 }

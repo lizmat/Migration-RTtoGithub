@@ -2,6 +2,12 @@ Revision history for Migration-RTtoGithub
 
 {{$NEXT}}
 
+0.0.3  2021-09-08T14:59:00+02:00
+    - Change file extension to .rakumod
+    - Migrate to zef ecosystem
+    - Update email address
+    - Update copyright year
+
 0.0.2  2020-06-12T12:29:32+02:00
     - Check rt.perl.org for redirect if no mapping known
     - Change canonical RT link to https://
