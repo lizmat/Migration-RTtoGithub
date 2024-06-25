@@ -1,4 +1,3 @@
-use v6.c;
 use Test;
 use Migration::RTtoGithub;
 
@@ -14,4 +13,4 @@ is URL(127016, :old),
   "https://rt.perl.org/Ticket/Display.html?id=127016",
   "URL for RT in RT";
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

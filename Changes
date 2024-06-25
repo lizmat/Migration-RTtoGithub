@@ -2,6 +2,12 @@ Revision history for Migration-RTtoGithub
 
 {{$NEXT}}
 
+0.0.5  2024-06-25T12:03:30+02:00
+    - Modernize test file extension
+    - Modernize pod
+    - Add sponsor link and button
+    - Update copyright year
+
 0.0.4  2021-11-07T12:50:31+01:00
     - Remove module statement, we don't need it anymore
 

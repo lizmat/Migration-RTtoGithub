@@ -33,15 +33,15 @@ Migration::RTtoGithub - mapping of old RT tickets to GitHub issues
 
 =head1 SYNOPSIS
 
-=begin code :lang<perl6>
+=begin code :lang<raku>
 
-    use Migration::RTtoGithub;
+use Migration::RTtoGithub;
 
-    say GH(127016);  # 4921
-    say RT(4921);    # 127016
+say GH(127016);  # 4921
+say RT(4921);    # 127016
 
-    say URL(127016);        # https://github.com/Raku/old-issue-tracker/issues/4921
-    say URL(127016, :old);  # http://rt.perl.org/Ticket/Display.html?id=127016
+say URL(127016);        # https://github.com/Raku/old-issue-tracker/issues/4921
+say URL(127016, :old);  # http://rt.perl.org/Ticket/Display.html?id=127016
 
 =end code
 
@@ -55,22 +55,34 @@ Raku/old-issue-tracker repository.
 
 =head2 GH
 
-    say GH(127016);  # 4921
+=begin code :lang<raku>
+
+say GH(127016);  # 4921
+
+=end code
 
 Return the number of the Github issue associated with the given RT
 ticket number.
 
 =head2 RT
 
-    say RT(4921);    # 127016
+=begin code :lang<raku>
+
+say RT(4921);    # 127016
+
+=end code
 
 Return the number of the RT ticket associated with the given Github
 issue number.
 
 =head2 URL
 
-    say URL(127016);        # https://github.com/Raku/old-issue-tracker/issues/4921
-    say URL(127016, :old);  # http://rt.perl.org/Ticket/Display.html?id=127016
+=begin code :lang<raku>
+
+say URL(127016);        # https://github.com/Raku/old-issue-tracker/issues/4921
+say URL(127016, :old);  # http://rt.perl.org/Ticket/Display.html?id=127016
+
+=end code
 
 Return the URL of the Github issue for the given RT ticket if possible.
 If there is no known mapping, then the URL of the RT ticket will be
@@ -86,13 +98,17 @@ Elizabeth Mattijsen <liz@raku.rocks>
 Source can be located at: https://github.com/lizmat/Migration-RTtoGithub .
 Comments and Pull Requests are welcome.
 
+If you like this module, or what I’m doing more generally, committing to a
+L<small sponsorship|https://github.com/sponsors/lizmat/>  would mean a great
+deal to me!
+
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2020, 2021 Elizabeth Mattijsen
+Copyright 2020, 2021, 2024 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under
 the Artistic License 2.0.
 
 =end pod
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4
